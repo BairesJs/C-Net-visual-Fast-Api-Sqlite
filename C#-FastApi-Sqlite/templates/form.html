@@ -1,0 +1,31 @@
+<!-- templates/form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Introduce tus datos:</h1>
+    <form action="/form" method="post">
+        <!-- Aquí puedes agregar campos de formulario como se desee -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" name="telefono"><br><br>
+
+        <label for="email">Mail:</label>
+        <input type="text" id="email" name="email"><br><br>
+        
+        
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,2 @@
+Para arrancar el servidor abrir una consola dentro de la carpeta y escribir: 
+uvicorn main:app --reload
